@@ -1,6 +1,6 @@
 
-var player,player2;
-var platform,platform2;
+var player;
+var platform;
 var player_image, platform_image;
 
 function preload(){
@@ -16,9 +16,6 @@ function setup() {
   platform = createSprite(250,350,100,10);
   platform.addImage("platform", platform_image)
   platform.scale=0.15
-
-  player2 = createSprite(350,300,20,50);
-  platform2 = createSprite(350,350,100,10);
 
 }
 
